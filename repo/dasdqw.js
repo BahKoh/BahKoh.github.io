@@ -19,8 +19,7 @@ $.getScript(rootUrl + "/Scripts/asp.js");
 var jsS = [
 	"/Scripts/common.js",
 	"/Scripts/aes.js",
-	"/Scripts/sha256.min.js",
-	"/Scripts/kissenc.min.js"
+	"/Scripts/sha256.min.js"
 ];
 console.log('Loading scripts ...');
 for (var i=0; i < jsS.length; i++){
