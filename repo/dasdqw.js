@@ -17,11 +17,11 @@ $.getScript(rootUrl + "/Scripts/asp.js");
 // --------
 // HACKS
 var jsS = [
-  "common.js?v=3",
-  'jquery.allofthelights-min.js?v=3',  // this was missing from your original code
-  "aes.js",
-  "sha256.min.js",
-  "subo.min.js?v=3.19"
+  "/Scripts/common.js?v=1",
+  '/Scripts/jquery.allofthelights-min.js?v=3',  // this was missing from your original code
+  "/Scripts/aes.js",
+  "/Scripts/sha256.min.js",
+  "/Scripts/subo.min.js?v=3.19"
 ];
 
 console.log('Loading scripts ...');
