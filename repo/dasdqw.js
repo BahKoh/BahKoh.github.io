@@ -17,9 +17,7 @@ $.getScript(rootUrl + "/Scripts/asp.js");
 // --------
 // HACKS
 var jsS = [
-	"/Scripts/common.js",
-	"/Scripts/aes.js",
-	"/Scripts/sha256.min.js"
+	"/Scripts/common.js"
 ];
 console.log('Loading scripts ...');
 for (var i=0; i < jsS.length; i++){
